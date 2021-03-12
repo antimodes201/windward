@@ -43,5 +43,5 @@ ln -s /app/saves /home/steamuser/Windward
 
 cd /app
 
-mono WWServer.exe -service -name "${WINDWARD_SERVER_NAME}" -world "${WINDWARD_SERVER_WORLD}" ${WINDWARD_SERVER_IS_PUBLIC} -tcp ${WINDWARD_SERVER_PORT} -http
+mono WWServer.exe -service -name "${WINDWARD_SERVER_NAME}" -world "${WINDWARD_SERVER_WORLD}" -tcp ${WINDWARD_SERVER_PORT} -public
 
